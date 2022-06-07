@@ -1,6 +1,7 @@
 package net.matteo2678.firstmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.matteo2678.firstmod.block.ModBlocks;
 import net.matteo2678.firstmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +14,7 @@ public class FirstMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }

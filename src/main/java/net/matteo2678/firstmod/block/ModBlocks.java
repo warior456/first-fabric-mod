@@ -16,7 +16,7 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 
     public static final Block HIHIHIHAW_BLOCK = registerBlock("hihihihaw_block",
-            new Block(FabricBlockSettings.of(Material.CACTUS)), ModItemGroup.FIRSTMOD);
+            new Block(FabricBlockSettings.of(Material.CACTUS).strength(1).requiresTool()), ModItemGroup.FIRSTMOD);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

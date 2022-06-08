@@ -1,5 +1,10 @@
 {
   "item.firstmod.hihihihaw": "HI HI HI HAW",
+  "item.firstmod.dowsing_rod": "Dowsing Rod",
+
   "block.firstmod.hihihihaw_block": "HI HI HI HAW^3",
-  "itemGroup.firstmod.firstmod" : "Firstmod"
+
+  "itemGroup.firstmod.firstmod" : "Firstmod",
+
+  "item.firstmod.dowsing_rod.no_valuables": "No Valuables Found!"
 }

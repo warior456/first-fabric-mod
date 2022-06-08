@@ -11,7 +11,7 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
 
     public static final Item HIHIHIHAW = registerItem("hihihihaw",
-        new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+        new Item(new FabricItemSettings().group(ModItemGroup.FIRSTMOD)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(FirstMod.MOD_ID, name), item);
